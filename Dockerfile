@@ -1,4 +1,4 @@
-FROM gberube/aio:free_group
+FROM gberube/aio:paid_group_latest
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
 COPY . .
